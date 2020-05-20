@@ -1,2 +1,0 @@
-# PashkinsPL.github.io
-lol
