@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab|Lobster|Press+Start+2P&display=swap');
+body {
+	background: fixed  url(../assets/images/Ui5j.gif) no-repeat;
+	padding-top: 100px;
+	background-color: #000;
+	background-size: cover;
+}
+
+img.donate {
+	position: absolute;
+	width: 15%;
+	left: 5%;
+	top: 5%;
+	transition: all 0.3s;
+}
+img.donate:hover {
+	width: 20%;
+}
+
+div.text {
+	white-space: nowrap;
+	text-decoration: none;
+	color: #fff;
+	font: 30pt 'Kelly Slab';
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+div.container {
+	top: 30%;
+	left: 0px;
+	background-color: #000;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#vk {
+	background: #eee;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	font-family: 'Kelly Slab';
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 20px;
+	transition: all 0.3s;
+}
+#vk:hover {
+	box-shadow: 0px -40px 0 #067aff inset;
+}
+
+#ip {
+	position: absolute;
+	left: -10px;
+	top: 100%px;
+	background: #eee;
+	color: #111;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Kelly Slab';
+	text-align: center;
+	padding: 5px 0px;
+	transition: all 0.3s;
+	border: 0px;
+	border-radius: 15px;
+}
+#ip:hover {
+	background: #111;
+	color: #eee;
+}
