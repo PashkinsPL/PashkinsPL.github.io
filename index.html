@@ -7,11 +7,13 @@
 		<script src="js/test.js" type="text/javascript"></script>
 	</head>
     <body>
+	<div>
         <?php
         if(isset($_GET['blog'])) {
         echo $_GET['blog'];
         }
         ?>
+	</div>
         <div class="text">
             Neverland
             <input readonly type="text" value="neverland.titanmc.io" id="ip" onclick="CopyIp()"></input>
